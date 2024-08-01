@@ -1,0 +1,16 @@
+package bootcamp;
+
+import java.util.Scanner;
+
+public class temperature {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		Float f=sc.nextFloat();
+		Float res=(f*9/5)+32;
+		System.out.println(res);
+
+	}
+
+}
