@@ -1,0 +1,33 @@
+package bootcamp;
+
+import java.util.Scanner;
+
+public class typecasting {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		Scanner input=new Scanner(System.in);
+//		System.out.println("please enter a number");
+//		float num=input.nextFloat();
+//		System.out.println(num);
+		
+		
+//		
+//		int a=(int)(56.77f);
+//		System.out.println(a);
+//		int x=257;
+//		byte b=(byte)(x);
+//		System.out.println(b);
+		byte a=50;
+		byte b=40;
+		byte c=100;
+		int d=a*b/c;
+		System.out.println(d);
+		int number='A';
+		System.out.println(number);
+		System.out.println(5.6*8);
+		
+
+	}
+
+}
